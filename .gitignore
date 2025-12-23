@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Data files (may contain sensitive DMARC data)
+dmarc-data.json
+
+# DMARC reports (may contain sensitive email data)
+dmarc-reports/*.xml
+dmarc-reports/*.gz
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
