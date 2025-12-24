@@ -7,9 +7,6 @@ dist/
 # Data files (may contain sensitive DMARC data)
 dmarc-data.json
 
-# DMARC reports (may contain sensitive email data)
-dmarc-reports/*.xml
-dmarc-reports/*.gz
 
 # Environment variables
 .env
