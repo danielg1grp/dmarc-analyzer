@@ -4,8 +4,6 @@ node_modules/
 # Build output
 dist/
 
-# Data files (may contain sensitive DMARC data)
-dmarc-data.json
 
 
 # Environment variables
