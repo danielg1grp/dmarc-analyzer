@@ -16,7 +16,7 @@ export interface DmarcReportXml {
       adkim: string[];
       aspf: string[];
       p: string[];
-      sp: string[];
+      sp?: string[];
       pct: string[];
       fo?: string[];
     }];
@@ -63,7 +63,7 @@ export interface PolicyPublished {
   adkim: string;  // r = relaxed, s = strict
   aspf: string;   // r = relaxed, s = strict
   p: string;      // none, quarantine, reject
-  sp: string;     // subdomain policy
+  sp?: string;    // subdomain policy (optional, defaults to p if not specified)
   pct: number;    // percentage
 }
 

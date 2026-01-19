@@ -38,7 +38,7 @@ export async function parseReport(filePath: string): Promise<ParsedReport> {
     adkim: policyPub.adkim[0],
     aspf: policyPub.aspf[0],
     p: policyPub.p[0],
-    sp: policyPub.sp[0],
+    sp: policyPub.sp?.[0],
     pct: parseInt(policyPub.pct[0], 10)
   };
 
