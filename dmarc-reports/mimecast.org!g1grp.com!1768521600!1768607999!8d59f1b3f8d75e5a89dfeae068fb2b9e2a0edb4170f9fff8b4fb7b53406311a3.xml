@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feedback>
+  <report_metadata>
+    <org_name>Mimecast</org_name>
+    <email>no-reply@us-1.mimecastreport.com</email>
+    <extra_contact_info>https://community.mimecast.com/s/knowledge</extra_contact_info>
+    <report_id>8d59f1b3f8d75e5a89dfeae068fb2b9e2a0edb4170f9fff8b4fb7b53406311a3</report_id>
+    <date_range>
+      <begin>1768521600</begin>
+      <end>1768607999</end>
+    </date_range>
+  </report_metadata>
+  <policy_published>
+    <domain>g1grp.com</domain>
+    <adkim>r</adkim>
+    <aspf>r</aspf>
+    <p>none</p>
+    <sp>none</sp>
+    <pct>25</pct>
+  </policy_published>
+  <record>
+    <row>
+      <source_ip>74.125.224.65</source_ip>
+      <count>1</count>
+      <policy_evaluated>
+        <disposition>none</disposition>
+        <dkim>pass</dkim>
+        <spf>pass</spf>
+      </policy_evaluated>
+    </row>
+    <identifiers>
+      <header_from>g1grp.com</header_from>
+    </identifiers>
+    <auth_results>
+      <dkim>
+        <domain>g1grp.com</domain>
+        <selector>google</selector>
+        <result>pass</result>
+        <human_result/>
+      </dkim>
+      <spf>
+        <domain>g1grp.com</domain>
+        <result>pass</result>
+      </spf>
+    </auth_results>
+  </record>
+</feedback>
