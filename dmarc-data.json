@@ -150,9 +150,18 @@
     "mimecast.org!g1grp.com!1768867200!1768953599!a63cee99e8e8ee52a8cd14dee7988ee2bec8237feedd312c55c0a00205f3bce7.xml",
     "protection.outlook.com!greenawaltroofing.com!1768780800!1768867200.xml",
     "yahoo.com!g1grp.com!1768780800!1768867199.xml",
-    "zoho.com!greenawaltroofing.com!1768723200!1768809600.xml"
+    "zoho.com!greenawaltroofing.com!1768723200!1768809600.xml",
+    "comcast.net!g1grp.com!1768953600!1769040000.xml",
+    "enterprise.protection.outlook.com!greenawaltroofing.com!1768867200!1768953600.xml",
+    "enterprise.protection.outlook.com!thebigfishco.com!1768867200!1768953600.xml",
+    "google.com!greenawaltroofing.com!1768953600!1769039999.xml",
+    "google.com!thebigfishco.com!1768953600!1769039999.xml",
+    "mimecast.org!g1grp.com!1768953600!1769039999!b49e0c9cd7d16a6bdbbbd62dce5828a4fa064f3c2b5cb883cafa4e8c253680fb.xml",
+    "mimecast.org!g1grp.com!1768953600!1769039999!c9e0bfc90c5b137a480cdae7f19258985b20daf5928604a6c5fd0e8c601b4fbf.xml",
+    "protection.outlook.com!greenawaltroofing.com!1768867200!1768953600.xml",
+    "protection.outlook.com!thebigfishco.com!1768867200!1768953600.xml"
   ],
-  "lastUpdated": "2026-01-21T19:11:45.886Z",
+  "lastUpdated": "2026-01-22T14:48:05.719Z",
   "domains": {
     "greenawaltroofing.com": {
       "policy": {
@@ -160,6 +169,7 @@
         "adkim": "r",
         "aspf": "r",
         "p": "quarantine",
+        "sp": "quarantine",
         "pct": 25
       },
       "records": [
@@ -28230,6 +28240,943 @@
               "result": "pass"
             }
           }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2607:f8b0:4864:20::c30",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "velux.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2607:f8b0:4864:20::b129",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "equitylifestyle.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2607:f8b0:4864:20::b131",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "hoem-inc.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2607:f8b0:4864:20::112d",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "g1grp.com",
+            "envelopeTo": "safeamericainsurance.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "g1grp.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2a00:1450:4864:20::62a",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "westhempfield.org"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2607:f8b0:4864:20::b133",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "pciauctions.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "135.84.80.23",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "fail",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "notifications.zohoflow.com",
+            "envelopeTo": "penno365.mail.onmicrosoft.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "1522905413783",
+                "result": "fail"
+              }
+            ],
+            "spf": {
+              "domain": "notifications.zohoflow.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2001:4860:4864:20::34",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "velux.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2607:f8b0:4864:20::b130",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "g1grp.com",
+            "envelopeTo": "safeamericainsurance.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "g1grp.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2607:f8b0:4864:20::b134",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "thatpetplace.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "135.84.80.97",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "fail",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "sender.zohocrm.com",
+            "envelopeTo": "penno365.mail.onmicrosoft.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "1522905413783",
+                "result": "fail"
+              },
+              {
+                "domain": "sender.zohocrm.com",
+                "selector": "282322",
+                "result": "fail"
+              }
+            ],
+            "spf": {
+              "domain": "sender.zohocrm.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "135.84.80.189",
+          "count": 31,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "1522905413783",
+                "result": "pass"
+              },
+              {
+                "domain": "sender.zohocrm.com",
+                "selector": "282322",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "sender.zohocrm.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "135.84.80.174",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "1522905413783",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "notifications.zohoflow.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "142.171.65.101",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "fail",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [],
+            "spf": {
+              "domain": "sdhrsj.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.220.41",
+          "count": 23,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "1522905413783",
+                "result": "pass"
+              },
+              {
+                "domain": "sender.zohocrm.com",
+                "selector": "282322",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "135.84.80.97",
+          "count": 21,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "1522905413783",
+                "result": "pass"
+              },
+              {
+                "domain": "sender.zohocrm.com",
+                "selector": "282322",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "sender.zohocrm.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "142.171.65.101",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "quarantine",
+            "dkim": "fail",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [],
+            "spf": {
+              "domain": "sdhrsj.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "135.84.80.172",
+          "count": 64,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "1522905413783",
+                "result": "pass"
+              },
+              {
+                "domain": "sender.zohocrm.com",
+                "selector": "282322",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "sender.zohocrm.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.220.41",
+          "count": 2,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "g1grp.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.220.41",
+          "count": 41,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.220.69",
+          "count": 19,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "13276119281366654787",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "135.84.80.62",
+          "count": 17,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "fail"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "1522905413783",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "usermail.zohodeluge.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "ac9b9bc0e2224667bfe780e914992434",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "74.125.224.54",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "hotmail.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "ac9b9bc0e2224667bfe780e914992434",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "74.125.224.45",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "hotmail.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "ac9b9bc0e2224667bfe780e914992434",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "74.125.82.44",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "hotmail.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "ac9b9bc0e2224667bfe780e914992434",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "209.85.219.54",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "hotmail.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "ac9b9bc0e2224667bfe780e914992434",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "74.125.82.41",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "hotmail.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "ac9b9bc0e2224667bfe780e914992434",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "74.125.82.51",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "hotmail.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "ac9b9bc0e2224667bfe780e914992434",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "209.85.128.178",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "greenawaltroofing.com",
+            "envelopeFrom": "greenawaltroofing.com",
+            "envelopeTo": "hotmail.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "greenawaltroofing.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "greenawaltroofing.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
         }
       ],
       "reports": [
@@ -29665,6 +30612,48 @@
           "passCount": 1,
           "failCount": 0,
           "issues": []
+        },
+        {
+          "reportId": "71b2464e7d6946dba990abd8a4ad24a3",
+          "filename": "enterprise.protection.outlook.com!greenawaltroofing.com!1768867200!1768953600.xml",
+          "reporter": "Enterprise Outlook",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "totalMessages": 11,
+          "passCount": 9,
+          "failCount": 2,
+          "issues": [
+            "THIRD_PARTY_SENDER",
+            "DKIM_FAIL"
+          ]
+        },
+        {
+          "reportId": "13276119281366654787",
+          "filename": "google.com!greenawaltroofing.com!1768953600!1769039999.xml",
+          "reporter": "google.com",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "totalMessages": 221,
+          "passCount": 219,
+          "failCount": 2,
+          "issues": []
+        },
+        {
+          "reportId": "ac9b9bc0e2224667bfe780e914992434",
+          "filename": "protection.outlook.com!greenawaltroofing.com!1768867200!1768953600.xml",
+          "reporter": "Outlook.com",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "totalMessages": 7,
+          "passCount": 7,
+          "failCount": 0,
+          "issues": []
         }
       ],
       "dns": {
@@ -29726,11 +30715,11 @@
             "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr6KMgdxxgg7..."
           }
         ],
-        "fetchedAt": "2026-01-21T19:11:20.714Z",
+        "fetchedAt": "2026-01-22T14:47:41.396Z",
         "errors": []
       },
       "sourceIpAnalysis": {
-        "analyzedAt": "2026-01-21T19:11:37.529Z",
+        "analyzedAt": "2026-01-22T14:47:55.456Z",
         "identifiedServices": [
           {
             "name": "Google Workspace / Gmail",
@@ -29764,7 +30753,6 @@
               "209.85.220.69",
               "209.85.220.41",
               "209.85.220.73",
-              "2a00:1450:4864:20::62b",
               "2607:f8b0:4864:20::112e",
               "2a00:1450:4864:20::52d",
               "2607:f8b0:4864:20::1134",
@@ -29948,9 +30936,15 @@
               "209.85.214.196",
               "209.85.218.52",
               "209.85.210.176",
-              "209.85.222.201"
+              "209.85.222.201",
+              "2607:f8b0:4864:20::c30",
+              "2001:4860:4864:20::34",
+              "74.125.82.44",
+              "209.85.219.54",
+              "74.125.82.41",
+              "74.125.82.51"
             ],
-            "messageCount": 2828
+            "messageCount": 2924
           },
           {
             "name": "Microsoft 365 / Outlook",
@@ -29980,15 +30974,15 @@
         "unidentifiedIps": [
           {
             "ip": "135.84.80.172",
-            "messageCount": 1778
+            "messageCount": 1842
           },
           {
             "ip": "135.84.80.189",
-            "messageCount": 901
+            "messageCount": 932
           },
           {
             "ip": "135.84.80.97",
-            "messageCount": 886
+            "messageCount": 908
           },
           {
             "ip": "135.84.80.175",
@@ -29996,7 +30990,11 @@
           },
           {
             "ip": "135.84.80.174",
-            "messageCount": 46
+            "messageCount": 47
+          },
+          {
+            "ip": "135.84.80.62",
+            "messageCount": 42
           },
           {
             "ip": "135.84.80.108",
@@ -30016,15 +31014,11 @@
           },
           {
             "ip": "135.84.80.23",
-            "messageCount": 30
+            "messageCount": 31
           },
           {
             "ip": "35.174.145.124",
             "messageCount": 28
-          },
-          {
-            "ip": "135.84.80.62",
-            "messageCount": 25
           },
           {
             "ip": "31.149.213.145",
@@ -30051,11 +31045,11 @@
             "messageCount": 6
           },
           {
-            "ip": "80.11.160.251",
-            "messageCount": 4
+            "ip": "2a00:1450:4864:20::62b",
+            "messageCount": 5
           },
           {
-            "ip": "67.231.154.164",
+            "ip": "80.11.160.251",
             "messageCount": 4
           }
         ]
@@ -35200,6 +36194,230 @@
               "result": "pass"
             }
           }
+        },
+        {
+          "reportId": "7885dcd8d72447eea3a38b0bb04b520b",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "2607:f8b0:4864:20::1136",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "thebigfishco.com",
+            "envelopeFrom": "thebigfishco.com",
+            "envelopeTo": "paragonamerica.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "thebigfishco.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "thebigfishco.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "12843691883177976943",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.220.65",
+          "count": 2,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "thebigfishco.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "thebigfishco.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "thebigfishco.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "12843691883177976943",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.220.73",
+          "count": 17,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "thebigfishco.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "google.com",
+                "selector": "20230601",
+                "result": "pass"
+              },
+              {
+                "domain": "thebigfishco.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "thebigfishco.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "12843691883177976943",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.220.41",
+          "count": 76,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "thebigfishco.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "thebigfishco.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "thebigfishco.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "12843691883177976943",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.220.69",
+          "count": 27,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "thebigfishco.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "thebigfishco.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "thebigfishco.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "c0b3f6f6c0354302a2691bacb155f286",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "209.85.167.53",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "thebigfishco.com",
+            "envelopeFrom": "thebigfishco.com",
+            "envelopeTo": "hotmail.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "thebigfishco.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "thebigfishco.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "c0b3f6f6c0354302a2691bacb155f286",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "sourceIp": "209.85.167.47",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "thebigfishco.com",
+            "envelopeFrom": "thebigfishco.com",
+            "envelopeTo": "outlook.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "thebigfishco.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "thebigfishco.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
         }
       ],
       "reports": [
@@ -35665,6 +36883,45 @@
             "DKIM_ALIGNMENT_FAIL",
             "SPF_FAIL"
           ]
+        },
+        {
+          "reportId": "7885dcd8d72447eea3a38b0bb04b520b",
+          "filename": "enterprise.protection.outlook.com!thebigfishco.com!1768867200!1768953600.xml",
+          "reporter": "Enterprise Outlook",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "totalMessages": 1,
+          "passCount": 1,
+          "failCount": 0,
+          "issues": []
+        },
+        {
+          "reportId": "12843691883177976943",
+          "filename": "google.com!thebigfishco.com!1768953600!1769039999.xml",
+          "reporter": "google.com",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "totalMessages": 122,
+          "passCount": 122,
+          "failCount": 0,
+          "issues": []
+        },
+        {
+          "reportId": "c0b3f6f6c0354302a2691bacb155f286",
+          "filename": "protection.outlook.com!thebigfishco.com!1768867200!1768953600.xml",
+          "reporter": "Outlook.com",
+          "dateRange": {
+            "begin": 1768867200,
+            "end": 1768953600
+          },
+          "totalMessages": 2,
+          "passCount": 2,
+          "failCount": 0,
+          "issues": []
         }
       ],
       "dns": {
@@ -35703,11 +36960,11 @@
             "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkd7xWdI2DQu..."
           }
         ],
-        "fetchedAt": "2026-01-21T19:11:40.534Z",
+        "fetchedAt": "2026-01-22T14:47:55.531Z",
         "errors": []
       },
       "sourceIpAnalysis": {
-        "analyzedAt": "2026-01-21T19:11:44.763Z",
+        "analyzedAt": "2026-01-22T14:48:01.543Z",
         "identifiedServices": [
           {
             "name": "Google Workspace / Gmail",
@@ -35769,9 +37026,11 @@
               "209.85.167.53",
               "74.125.82.51",
               "74.125.82.49",
-              "74.125.82.43"
+              "74.125.82.43",
+              "2607:f8b0:4864:20::1136",
+              "209.85.167.47"
             ],
-            "messageCount": 1378
+            "messageCount": 1503
           }
         ],
         "unidentifiedIps": [
@@ -35864,6 +37123,7 @@
         "adkim": "r",
         "aspf": "r",
         "p": "none",
+        "sp": "none",
         "pct": 25
       },
       "records": [
@@ -38370,6 +39630,98 @@
               "result": "pass"
             }
           }
+        },
+        {
+          "reportId": "v2-1769051341-g1grp.com",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769040000
+          },
+          "sourceIp": "209.85.167.53",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "g1grp.com",
+            "envelopeFrom": "g1grp.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "g1grp.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "g1grp.com",
+              "scope": "mfrom",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "b49e0c9cd7d16a6bdbbbd62dce5828a4fa064f3c2b5cb883cafa4e8c253680fb",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.128.175",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "g1grp.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "g1grp.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "g1grp.com",
+              "result": "pass"
+            }
+          }
+        },
+        {
+          "reportId": "c9e0bfc90c5b137a480cdae7f19258985b20daf5928604a6c5fd0e8c601b4fbf",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "sourceIp": "209.85.167.49",
+          "count": 1,
+          "policyEvaluated": {
+            "disposition": "none",
+            "dkim": "pass",
+            "spf": "pass"
+          },
+          "identifiers": {
+            "headerFrom": "g1grp.com"
+          },
+          "authResults": {
+            "dkim": [
+              {
+                "domain": "g1grp.com",
+                "selector": "google",
+                "result": "pass"
+              }
+            ],
+            "spf": {
+              "domain": "g1grp.com",
+              "result": "pass"
+            }
+          }
         }
       ],
       "reports": [
@@ -38726,6 +40078,51 @@
           "issues": [
             "POLICY_NONE"
           ]
+        },
+        {
+          "reportId": "v2-1769051341-g1grp.com",
+          "filename": "comcast.net!g1grp.com!1768953600!1769040000.xml",
+          "reporter": "comcast.net",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769040000
+          },
+          "totalMessages": 1,
+          "passCount": 1,
+          "failCount": 0,
+          "issues": [
+            "POLICY_NONE"
+          ]
+        },
+        {
+          "reportId": "b49e0c9cd7d16a6bdbbbd62dce5828a4fa064f3c2b5cb883cafa4e8c253680fb",
+          "filename": "mimecast.org!g1grp.com!1768953600!1769039999!b49e0c9cd7d16a6bdbbbd62dce5828a4fa064f3c2b5cb883cafa4e8c253680fb.xml",
+          "reporter": "Mimecast",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "totalMessages": 1,
+          "passCount": 1,
+          "failCount": 0,
+          "issues": [
+            "POLICY_NONE"
+          ]
+        },
+        {
+          "reportId": "c9e0bfc90c5b137a480cdae7f19258985b20daf5928604a6c5fd0e8c601b4fbf",
+          "filename": "mimecast.org!g1grp.com!1768953600!1769039999!c9e0bfc90c5b137a480cdae7f19258985b20daf5928604a6c5fd0e8c601b4fbf.xml",
+          "reporter": "Mimecast",
+          "dateRange": {
+            "begin": 1768953600,
+            "end": 1769039999
+          },
+          "totalMessages": 1,
+          "passCount": 1,
+          "failCount": 0,
+          "issues": [
+            "POLICY_NONE"
+          ]
         }
       ],
       "dns": {
@@ -38766,20 +40163,13 @@
             "version": "DKIM1",
             "keyType": "rsa",
             "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0ABUQG0JmD6..."
-          },
-          {
-            "selector": "11131550455",
-            "raw": "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiBVdQzI9kMaD0TJwlSQbE6VLjK+Y1aiUJ0eDPNV7a+5K9CD8hRga+ZQ7ifIFH/k2zYqu/gDspobrB0oDraLXpzMWDYg7wSgpEHdnbg938ylseXp6y/N7TAUFUnFGUaCWE/PUR4tLdpx5iXD506Z9h2y+kwwjIqN4PvCIAnzCe5QIDAQAB",
-            "found": true,
-            "keyType": "rsa",
-            "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiBVdQzI9kMa..."
           }
         ],
-        "fetchedAt": "2026-01-21T19:11:44.835Z",
+        "fetchedAt": "2026-01-22T14:48:04.551Z",
         "errors": []
       },
       "sourceIpAnalysis": {
-        "analyzedAt": "2026-01-21T19:11:45.886Z",
+        "analyzedAt": "2026-01-22T14:48:05.719Z",
         "identifiedServices": [
           {
             "name": "Google Workspace / Gmail",
@@ -38844,9 +40234,10 @@
               "209.85.128.170",
               "209.85.128.196",
               "209.85.167.42",
-              "209.85.167.49"
+              "209.85.167.49",
+              "209.85.167.53"
             ],
-            "messageCount": 204
+            "messageCount": 207
           }
         ],
         "unidentifiedIps": [
