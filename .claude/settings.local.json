@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "mcp__chrome-devtools__new_page",
+      "mcp__chrome-devtools__take_screenshot",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__list_pages",
+      "Bash(npx ts-node:*)",
+      "Bash(node -e \"\nconst { execSync } = require\\(''child_process''\\);\nconst result = execSync\\(''npx ts-node -e \"\"const s = require\\(\\\\\"\"./src/storage\\\\\"\"\\); const p = require\\(\\\\\"\"path\\\\\"\"\\); s.refreshData\\(process.cwd\\(\\), p.join\\(process.cwd\\(\\), \\\\\"\"dmarc-reports\\\\\"\"\\)\\).then\\(r => console.log\\(JSON.stringify\\(r, null, 2\\)\\)\\).catch\\(e => console.error\\(e\\)\\);\"\"'', { encoding: ''utf8'', stdio: ''pipe'' }\\);\nconsole.log\\(result\\);\n\")",
+      "Bash(del \"C:\\\\Users\\\\Daniel Kemper\\\\Documents\\\\GitHub\\\\dmarc-analyzer\\\\process-reports.ts\")",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd more DMARC reports and update data\n\nProcess 81 new reports from Google, Microsoft, Amazon SES, Mimecast, and Yahoo.\nReplace compressed .gz files with extracted .xml format.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix parsing for Yahoo and Zoho DMARC reports\n\nMake subdomain policy \\(sp\\) optional in policy_published as some\nreporters \\(Yahoo, Zoho\\) don''t include it. Per DMARC spec, sp defaults\nto the main policy \\(p\\) when not specified.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(ls:*)",
+      "Bash(python3:*)",
+      "Bash(node -e:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd more DMARC reports\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)"
+    ]
+  }
+}
